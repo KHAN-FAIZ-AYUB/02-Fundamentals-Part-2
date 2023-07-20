@@ -121,4 +121,31 @@ console.log(yearsUntilRetirement(1991, "Faiz"));
 console.log(yearsUntilRetirement(1950, "Faisal"));
 */
 
-// ************************ REVIEWING FUNCTION    ************************
+// ************************ CHALLENGE #01   ************************
+/*
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(3, 4, 5));
+
+let scoreDolphins = calcAverage(44, 23, 71);
+let scoreKoalas = calcAverage(65, 54, 49);
+console.log(scoreDolphins, scoreKoalas);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+  if (avgDolphins >= 2 * avgKoalas) {
+    console.log(`dolphins wins  ${avgDolphins} vs ${avgKoalas}`);
+  } else if (avgKoalas >= 2 * avgDolphins) {
+    console.log(`Koalas wins  ${avgKoalas} vs ${avgDolphins}`);
+  } else {
+    console.log(`No one wins...`);
+  }
+};
+checkWinner(scoreDolphins, scoreKoalas);
+checkWinner(576, 111);
+
+scoreDolphins = calcAverage(85, 54, 41);
+scoreKoalas = calcAverage(23, 34, 27);
+console.log(scoreDolphins, scoreKoalas);
+checkWinner(scoreDolphins, scoreKoalas);
+*/
+
+// ************************   ************************
