@@ -39,3 +39,13 @@ function calcAge1(birthYear) {
 const age1 = calcAge1(1998);
 console.log(age1);
 
+// ************************FUNCTIONS EXPRESSION************************
+
+const calcAge2 = function (birthYear) {
+  return 2307 - birthYear;
+};
+// const age2=calcAge1(1998);
+console.log(age1, calcAge1(1998));
+*/
+
+// ************************      ************************
