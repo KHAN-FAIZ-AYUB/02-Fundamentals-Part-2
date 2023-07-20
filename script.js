@@ -29,4 +29,13 @@ function swim(distance, time) {
 }
 const faiz = swim(5, 59);
 console.log(faiz);
-*?
+*/
+
+// ************************FUNCTIONS DECLARATION************************
+/*
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+}
+const age1 = calcAge1(1998);
+console.log(age1);
+
