@@ -69,3 +69,33 @@ console.log(yearUntilRetirement("faisal", 1980));
 */
 
 // ***************FUNCTION CALLING OTHER FUNCTIONS********************
+
+// const carBrand= function(){
+//     console.log('lambo');
+// }
+// // carBrand();
+
+// function carSpeed(gear, speed) {
+//     const brand =carBrand();
+//     const car = `${carBrand()} is on ${gear} gear and speed of car is ${speed} kph.`;
+//     return car;
+//   }
+// //   const speedCheck=carSpeed(6, 285);
+//   console.log(carSpeed(6, 285));
+
+/*
+function cutFruitPieces(fruit) {
+  return 4 * fruit;
+}
+
+function fruitProcessor(apple, orange) {
+  const applePieces = cutFruitPieces(apple);
+  const orangePieces = cutFruitPieces(orange);
+
+  const juice = `juice with ${applePieces} pices of apple and ${orangePieces} pices of orange`;
+  return juice;
+}
+console.log(fruitProcessor(2, 3));
+*/
+
+// ************************    ************************
