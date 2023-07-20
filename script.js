@@ -148,4 +148,46 @@ console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
 */
 
-// ************************   ************************
+// ************************ ARREY INTRO  ************************
+/*
+const friend1 = "Faiz";
+const friend2 = "Faisal";
+const friend3 = "Fareen";
+
+const friends = ["Faiz", "Faisal", "Fareen"];
+console.log(friends);
+
+const year = new Array(1995, 1998, 2001);
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+const firstName = "Faiz";
+const faiz = [firstName, "Khan", 2023 - 1998, "Developer", friends];
+console.log(faiz);
+console.log(faiz.length);
+
+// EXCERCISE
+
+const calcAge = function (birthYear) {
+  return 2037 - birthYear;
+};
+const years = [1995, 1998, 2001, 2010, 2018];
+
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
+
+const ages = [
+  calcAge(years[0]),
+  calcAge(years[1]),
+  calcAge(years[years.length - 1]),
+];
+console.log(ages);
+*/
+
+// ******************** BASIC ARREY OPERATIONS  ********************
