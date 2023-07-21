@@ -299,3 +299,43 @@ console.log(
   `${faiz.firstName} has ${faiz.friends.length} friends and his best friends is ${faiz.friends[0]}`
 );
 */
+
+// ****************** OBJECT METHODS ************************
+/*
+const faiz = {
+  firstName: "faiz",
+  lastName: "khan",
+  birthYear: 1998,
+  job: "developer",
+  friends: ["Arfaz", "Faiasl", "Fareen"],
+  hasDriversLicesence: true,
+
+  // calcAge:function(birthYear){
+  //     return 2023-birthYear;
+  // }
+
+  //   calcAge: function () {
+  //     console.log(this);
+  //     return 2023 - this.birthYear;
+  //   }
+
+  calcAge: function () {
+    this.age = 2023 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()}-years old ${
+      this.job
+    } , and he has ${this.hasDriversLicesence ? "a" : "no"} drivers license`;
+  },
+};
+
+console.log(faiz.calcAge());
+
+console.log(faiz.age);
+
+console.log(faiz.getSummary());
+*/
+
+// ************************ CHALLENGE #03   ************************
