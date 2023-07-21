@@ -191,7 +191,7 @@ console.log(ages);
 */
 
 // ******************** BASIC ARRAY OPERATIONS (METHODS)  ********************
-
+/*
 const friends = ["Michael", "Steven", "Peter"];
 
 // Add elements
@@ -224,3 +224,17 @@ console.log(friends.includes("faiz"));
 if (friends.includes("Steven")) {
   console.log("friend Steven is there in your List");
 }
+*/
+
+// ************************ CHALLENGE #02   ************************
+/*
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
+
+const bills=[125,555,44];
+const tips=[calcTip(bills[0]),calcTip(bills[1]),calcTip(bills[2])];
+const total=[bills[0]+bills[1]+bills[2]];
+
+console.log(bills,tips,total);
+*/
