@@ -190,4 +190,16 @@ const ages = [
 console.log(ages);
 */
 
-// ******************** BASIC ARREY OPERATIONS  ********************
+// ******************** BASIC ARRAY OPERATIONS (METHODS)  ********************
+
+const friends = ['Michael', 'Steven', 'Peter'];
+
+//add elements
+
+const newLength=friends.push('Faiz');
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('Arfaz');
+console.log(friends);
+
