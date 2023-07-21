@@ -98,7 +98,7 @@ function fruitProcessor(apple, orange) {
 console.log(fruitProcessor(2, 3));
 */
 
-// ************************ REVIEWING FUNCTION    ************************
+// ********************** REVIEWING FUNCTION    ************************
 /*
 const calcAge = function (birthYear) {
   return 2037 - birthYear;
@@ -190,7 +190,7 @@ const ages = [
 console.log(ages);
 */
 
-// ******************** BASIC ARRAY OPERATIONS (METHODS)  ********************
+// ************** BASIC ARRAY OPERATIONS (METHODS)  ********************
 /*
 const friends = ["Michael", "Steven", "Peter"];
 
@@ -260,4 +260,42 @@ const faiz = {
 console.log(faizArray, faiz);
 */
 
-// ************************ Dot vs. Bracket Notation ************************
+// ****************** Dot vs. Bracket Notation ************************
+/*
+const faiz = {
+  firstName: "faiz",
+  lastName: "khan",
+  agr: 2023 - 1998,
+  job: "developer",
+  friends: ["Arfaz", "Faiasl", "Fareen"],
+};
+
+console.log(faiz);
+
+console.log(faiz.lastName);
+console.log(faiz["lastName"]);
+
+const nameKey = "Name";
+console.log(faiz["first" + nameKey]);
+console.log(faiz["last" + nameKey]);
+
+const interestedIn = prompt(
+  "What do you want to know about Faiz? Choose between firstName, lastName, age, job, and friends"
+);
+
+if (faiz[interestedIn]) {
+  console.log(faiz[interestedIn]);
+} else {
+  console.log(
+    "Wrong request! Choose between firstName, lastName, age, job, and friends"
+  );
+}
+
+faiz.location = "India";
+faiz["LinkedIn"] = "@Faizkhan";
+console.log(faiz);
+
+console.log(
+  `${faiz.firstName} has ${faiz.friends.length} friends and his best friends is ${faiz.friends[0]}`
+);
+*/
