@@ -192,15 +192,15 @@ console.log(ages);
 
 // ******************** BASIC ARRAY OPERATIONS (METHODS)  ********************
 
-const friends = ['Michael', 'Steven', 'Peter'];
+const friends = ["Michael", "Steven", "Peter"];
 
 // Add elements
 
-const newLength=friends.push('Faiz');
+const newLength = friends.push("Faiz");
 console.log(friends);
 console.log(newLength);
 
-friends.unshift('Arfaz');
+friends.unshift("Arfaz");
 console.log(friends);
 
 // Remove elements
@@ -213,7 +213,14 @@ console.log(friends);
 
 // Index location check
 
-console.log(friends.indexOf('Peter'));
-console.log(friends.indexOf('faiz'));
+console.log(friends.indexOf("Peter"));
+console.log(friends.indexOf("faiz"));
 
+// Check element is present in list or not
 
+console.log(friends.includes("Peter"));
+console.log(friends.includes("faiz"));
+
+if (friends.includes("Steven")) {
+  console.log("friend Steven is there in your List");
+}
