@@ -211,4 +211,9 @@ console.log(friends);
 friends.shift();
 console.log(friends);
 
+// Index location check
+
+console.log(friends.indexOf('Peter'));
+console.log(friends.indexOf('faiz'));
+
 
