@@ -339,3 +339,55 @@ console.log(faiz.getSummary());
 */
 
 // ************************ CHALLENGE #03   ************************
+/*
+const mark = {
+  fullNAme: "Mark Miller",
+  mass: 92,
+  height: 1.95,
+
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+
+const john = {
+  fullNAme: "John Smith",
+  mass: 92,
+  height: 1.95,
+
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log(mark.bmi, john.bmi);
+
+if (mark.bmi > john.bmi) {
+  console.log(
+    `${mark.fullNAme} BMI ${mark.calcBMI()} is heigher than ${
+      john.fullNAme
+    } BMi ${john.calcBMI()}`
+  );
+} else if (mark.bmi < john.bmi) {
+  console.log(
+    `${john.fullNAme} BMI ${john.calcBMI()} is heigher than ${
+      mark.fullNAme
+    } BMi ${mark.calcBMI()}`
+  );
+} else if (mark.bmi === john.bmi) {
+  console.log(
+    `${mark.fullNAme} BMI ${mark.calcBMI()} and ${
+      john.fullNAme
+    } BMi ${john.calcBMI()} is equal`
+  );
+}
+*/
+
+// ************************ FOR LOOP   ************************
+
+
