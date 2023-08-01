@@ -396,7 +396,7 @@ for (let rep = 1; rep <= 30; rep++) {
 */
 
 // ************************ LOOPING ARRAY   ************************
-
+/*
 const faiz = [
   "Faiz",
   "Khan",
@@ -443,3 +443,23 @@ for (let i = 0; i < faiz.length; i++) {
 
   console.log(faiz[i], typeof faiz[i]);
 }
+*/
+
+// ****************LOOPING BACKWARDS and LOOPS in LOOPS****************
+
+// LOOPING BACKWARDS
+
+const faiz = [
+  "Faiz",
+  "Khan",
+  2023 - 1998,
+  "Developer",
+  ["Faiz", "Faisal", "Fareen"],
+  true,
+];
+
+for (let i = faiz.length - 1; i >= 0; i--) {
+  console.log(i, faiz[i]);
+}
+
+// LOOPS in LOOPS
