@@ -424,12 +424,22 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 
-// continue loop
+// Continue loop
 
 console.log("-----ONLY STRINGS-----");
 
 for (let i = 0; i < faiz.length; i++) {
   if (typeof faiz[i] !== "string") continue;
+
+  console.log(faiz[i], typeof faiz[i]);
+}
+
+// Break loop
+
+console.log("-----BREAK WITH NUMBER-----");
+
+for (let i = 0; i < faiz.length; i++) {
+  if (typeof faiz[i] === "number") break;
 
   console.log(faiz[i], typeof faiz[i]);
 }
