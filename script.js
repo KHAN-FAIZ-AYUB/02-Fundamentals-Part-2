@@ -389,7 +389,37 @@ if (mark.bmi > john.bmi) {
 */
 
 // ************************ FOR LOOP   ************************
-
+/*
 for (let rep = 1; rep <= 30; rep++) {
   console.log(`Lifting weights reptition ${rep} 🏋️`);
 }
+*/
+
+// ************************ LOOPING ARRAY   ************************
+
+const faiz = [
+  "Faiz",
+  "Khan",
+  2023 - 1998,
+  "Developer",
+  ["Faiz", "Faisal", "Fareen"],
+  true,
+];
+
+const types = [];
+
+for (let i = 0; i < faiz.length; i++) {
+  console.log(faiz[i], typeof faiz[i]);
+
+  types.push(typeof faiz[i]);
+}
+
+console.log(types);
+
+const years = [1991, 1998, 2001, 2008];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2023 - years[i]);
+}
+console.log(ages);
