@@ -463,3 +463,11 @@ for (let i = faiz.length - 1; i >= 0; i--) {
 }
 
 // LOOPS in LOOPS
+
+for (let stroke = 1; stroke < 4; stroke++) {
+  console.log(`Starting stroke ${stroke} 🏊`);
+
+  for (let laps = 1; laps < 6; laps++) {
+    console.log(`: Free style laps ${laps}🏊‍♀️`);
+  }
+}
