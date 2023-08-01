@@ -446,7 +446,7 @@ for (let i = 0; i < faiz.length; i++) {
 */
 
 // ****************LOOPING BACKWARDS and LOOPS in LOOPS****************
-
+/*
 // LOOPING BACKWARDS
 
 const faiz = [
@@ -471,3 +471,27 @@ for (let stroke = 1; stroke < 4; stroke++) {
     console.log(`: Free style laps ${laps}🏊‍♀️`);
   }
 }
+*/
+
+// ************************ WHILE LOOP   ************************
+/*
+for (let lap = 1; lap <= 10; lap++) {
+  console.log(`Free style lap ${lap} 🏊`);
+}
+
+let lap = 1;
+while (lap <= 10) {
+  console.log(`Free style lap ${lap} 🏊`);
+  lap++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log("Loop is about to end...");
+}
+*/
+
+// ************************ CHALLENGE #04   ************************
