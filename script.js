@@ -423,3 +423,13 @@ for (let i = 0; i < years.length; i++) {
   ages.push(2023 - years[i]);
 }
 console.log(ages);
+
+// continue loop
+
+console.log("-----ONLY STRINGS-----");
+
+for (let i = 0; i < faiz.length; i++) {
+  if (typeof faiz[i] !== "string") continue;
+
+  console.log(faiz[i], typeof faiz[i]);
+}
